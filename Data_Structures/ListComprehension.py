@@ -13,5 +13,5 @@ print(x)
 
 # print the squares of only 1st 5 even natural numbers
 # Syntax : [ expression for item in list {if (test expression)}]
-x = [(i+1)**2 for i in range(10) if (i%2 == 0)]
+x = [(i+2)**2 for i in range(10) if (i%2 == 0)]
 print(x)

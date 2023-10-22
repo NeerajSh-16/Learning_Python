@@ -1,5 +1,6 @@
 # Writing by Method 1
 file1 = open('temp.txt','w')
+# Whenever you are using read, write or append functions always assign a variable to them because they return something
 file_data_adder = file1.write('Hello Guys\nMy name is Neeraj Sharma\nAt present I\'m enrolled in M.C.A programme in NIT Jamshedpur')
 # Also try this
 # file_reader = file1.readlines()

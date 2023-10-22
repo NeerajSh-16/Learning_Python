@@ -13,8 +13,8 @@ with open('temp.txt','r') as file1:
     print(file_reader)
 
 # Now we'll see data appending
-fil1 = open('temp.txt','a')
-appending_file = file1.write("My Roll Number is 2023PGCSCA022")
+file1 = open('temp.txt','a')
+appending_file = file1.write("\nMy Roll Number is 2023PGCSCA022")
 print(appending_file)
 
 # Now, let's see thst how does this file looks

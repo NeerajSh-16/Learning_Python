@@ -11,6 +11,11 @@ Sample Output : 56.00
 '''
 if __name__ == '__main__':
     # Neeraj Sharma
+    # My nickname is Madhav Sharma
+    # My college Roll Number is 2023PGCSCA022
+    # The name of my institute is Natioanl of Technology, Jamshedpur
+    # From here I'm pursuing my masters in Computer Application
+    # It is a three year professioanl course
     n = int(input())
     student_marks = {}
     for _ in range(n):
